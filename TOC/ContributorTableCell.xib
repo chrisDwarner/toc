@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="ScalaSans-Italic.otf">
+            <string>ScalaSans-Italic</string>
+        </mutableArray>
+        <mutableArray key="ScalaSans.otf">
+            <string>ScalaSans</string>
+            <string>ScalaSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContributorTableCell">
+            <connections>
+                <outlet property="pages" destination="aDa-CM-vGA" id="lTb-ez-UiL"/>
+                <outlet property="progress" destination="bEB-YL-kcB" id="2X0-hU-vQL"/>
+                <outlet property="subtitle" destination="3eQ-RM-ov8" id="9PF-ZA-gS9"/>
+                <outlet property="title" destination="4lq-jw-FAm" id="qBu-YT-HFo"/>
+                <outlet property="view" destination="aMl-E6-VEE" id="6iz-WM-bul"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="aMl-E6-VEE">
+            <rect key="frame" x="0.0" y="0.0" width="242" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <userGuides>
+                <userLayoutGuide location="121" affinity="minX"/>
+            </userGuides>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEB-YL-kcB">
+                    <rect key="frame" x="0.0" y="8" width="18" height="92"/>
+                    <color key="backgroundColor" red="0.41176470590000003" green="0.79215686269999996" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="pBZ-CB-xFJ"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Chapter Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lq-jw-FAm">
+                    <rect key="frame" x="26" y="8" width="208" height="24"/>
+                    <fontDescription key="fontDescription" name="ScalaSans" family="ScalaSans" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="sub title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eQ-RM-ov8">
+                    <rect key="frame" x="26" y="40" width="208" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="fyK-um-u6K"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ScalaSans" family="ScalaSans" pointSize="14"/>
+                    <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pages" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDa-CM-vGA">
+                    <rect key="frame" x="26" y="74" width="95" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="95" id="bbZ-nd-vOY"/>
+                        <constraint firstAttribute="height" constant="14" id="npx-Lu-0aR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ScalaSans-Italic" family="ScalaSans" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3eQ-RM-ov8" secondAttribute="trailing" constant="8" id="Dfr-aL-qF5"/>
+                <constraint firstItem="bEB-YL-kcB" firstAttribute="top" secondItem="aMl-E6-VEE" secondAttribute="top" constant="8" id="Hw2-pf-7QV"/>
+                <constraint firstItem="bEB-YL-kcB" firstAttribute="leading" secondItem="aMl-E6-VEE" secondAttribute="leading" id="I8A-Vj-ysS"/>
+                <constraint firstAttribute="bottom" secondItem="bEB-YL-kcB" secondAttribute="bottom" id="Szl-m5-Wws"/>
+                <constraint firstItem="4lq-jw-FAm" firstAttribute="top" secondItem="aMl-E6-VEE" secondAttribute="top" constant="8" id="XUs-Dj-K44"/>
+                <constraint firstItem="aDa-CM-vGA" firstAttribute="top" secondItem="3eQ-RM-ov8" secondAttribute="bottom" constant="8" id="YS4-1B-JfR"/>
+                <constraint firstItem="4lq-jw-FAm" firstAttribute="leading" secondItem="bEB-YL-kcB" secondAttribute="trailing" constant="8" id="bm0-hh-MK0"/>
+                <constraint firstAttribute="bottom" secondItem="aDa-CM-vGA" secondAttribute="bottom" constant="12" id="kmw-fE-UYT"/>
+                <constraint firstItem="3eQ-RM-ov8" firstAttribute="top" secondItem="4lq-jw-FAm" secondAttribute="bottom" constant="8" id="lFy-6b-hvY"/>
+                <constraint firstItem="3eQ-RM-ov8" firstAttribute="leading" secondItem="bEB-YL-kcB" secondAttribute="trailing" constant="8" id="lMq-Cj-4Iu"/>
+                <constraint firstItem="aDa-CM-vGA" firstAttribute="leading" secondItem="bEB-YL-kcB" secondAttribute="trailing" constant="8" id="m7i-yh-2WW"/>
+                <constraint firstAttribute="trailing" secondItem="4lq-jw-FAm" secondAttribute="trailing" constant="8" id="p0z-gD-tLW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="292" y="435"/>
+        </view>
+    </objects>
+</document>

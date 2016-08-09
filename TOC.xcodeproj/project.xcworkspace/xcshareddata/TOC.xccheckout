@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0973C396-70DD-4F06-9E57-FF6372D34BDF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TOC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B116FC512739C0AF8148159CED7A23B7206422BD</key>
+		<string>https://github.com/narrative-technologies/petrichor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TOC/TOC.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B116FC512739C0AF8148159CED7A23B7206422BD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/narrative-technologies/petrichor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B116FC512739C0AF8148159CED7A23B7206422BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B116FC512739C0AF8148159CED7A23B7206422BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>petrichor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
