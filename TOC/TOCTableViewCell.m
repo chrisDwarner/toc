@@ -73,15 +73,20 @@
     return self;
 }
 - (void)prepareForReuse {
+    [super prepareForReuse];
+
     self.constraintsSetup = NO;
+
     NSInteger length = [self.contributers count];
     if (length) {
         for (NSInteger i=0; i<length; i++)
         {
             ContributerView *contributer = [self.contributers objectAtIndex:i];
             contributer.didSetupContraints = NO;
+            [contributer removeFromSuperview];
         }
     }
+    [self.contributers removeAllObjects];
 }
 
 -(void) updateConstraints
@@ -168,6 +173,7 @@
         self.constraintsSetup = YES;
     }
     [super updateConstraints];
+    [super needsUpdateConstraints];
 }
 
 -(void) updateFonts

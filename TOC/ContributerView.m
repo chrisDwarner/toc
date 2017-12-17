@@ -52,7 +52,7 @@
         
         [self updateFonts];
         
-//        [self setBackgroundColor:[UIColor greenColor]];
+        [self setBackgroundColor:[UIColor greenColor]];
         
         self.didSetupContraints = NO;
     }
